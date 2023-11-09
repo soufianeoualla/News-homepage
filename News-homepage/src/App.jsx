@@ -13,7 +13,7 @@ function App() {
     <>
     {isClicked && <MobileMenu isClicked={isClicked}
                 setisClicked={setisClicked} />}
-    <div className="container">
+    <div className={` "container" ${isClicked ? "overflow" : null}  ` }>
      
       <Header isClicked={isClicked}
               setisClicked={setisClicked} />
