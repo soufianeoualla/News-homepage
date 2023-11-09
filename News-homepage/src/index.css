@@ -162,6 +162,13 @@ body{
   
   line-height: 1.5;
 }
+
+.mobile-menu{
+  display: none;
+}
+.mobile-navbar{
+  display: none;
+}
 @media screen and (max-width:1131px){
   .img{
     width: 120px;
@@ -272,6 +279,12 @@ body{
 
 @media screen and (max-width:768px){
 
+  .mobile-menu{
+    display: block;
+  }
+  .mobile-navbar{
+    display: block;
+  }
   .header {
     
     padding: 2rem 1rem;
